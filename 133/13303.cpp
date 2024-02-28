@@ -68,7 +68,6 @@ int main () {
             getline(cin, line);
             VI v  = split_string(line, id, stoi, itos);
             
-            cnt[1]++;
             for (int j = 0; j < v.size(); j++) {
                 cnt[v[j]]++;
                 link[v[j]][v[j+1]]++;
