@@ -7,116 +7,108 @@
 #include <bits/stdc++.h>
 using namespace std;
 
-vector<int> split_string(string& line, map<string, int>& word_id, vector<string>& id_word, int& id) {
-    vector<int> v;
+typedef vector<int> VI;
+typedef vector<string> VS;
+typedef map<string, int> MSI;
+
+VI split_string(string &line, int &cnt, MSI &stoi, VS &itos) {
+    VI v;
+    
+    v.push_back(0); //start
     
     string s;
     stringstream ss(line);
-
-    v.push_back(0);
-
     while (ss >> s) {
-        if (word_id.count(s) == 0) {
-            word_id[s] = id;
-            id_word[id] = s;
-            v.push_back(id++);
-        } 
+        if (stoi.count(s)) v.push_back(stoi[s]);
         else {
-            v.push_back(word_id[s]);
+            stoi[s] = cnt;
+            itos[cnt] = s;
+            v.push_back(cnt++);    
         }
     }
-
-    v.push_back(1);
-
+    
+    v.push_back(1); //end
+    
     return v;
 }
 
-bool compare(pair<int, pair<int, pair<int, string>>>& a, pair<int, pair<int, pair<int, string>>>& b) {
+bool cmp(pair<int, pair<int, int>> &a, pair<int, pair<int, int>> &b, VS &itos) {
     if (a.first == b.first) {
-        if (a.second.first == b.second.first)
-            return a.second.second.second < b.second.second.second;
+        if (a.second.first == b.second.first) {
+            return itos[a.second.second] < itos[b.second.second];
+        }
         return a.second.first > b.second.first;
     }
     return a.first > b.first;
 }
 
-int next_id(vector<pair<int, pair<int, pair<int, string>>>>& v) {
-    pair<int, pair<int, pair<int, string>>> t = v[0];
+int next_id(vector<pair<int, pair<int, int>>> &v, VS &itos) {
+    pair<int, pair<int, int>> tmp = v[0];
 
-    for (pair<int, pair<int, pair<int, string>>>& p : v)
-        if (compare(p, t)) t = p;
-
-    return t.second.second.first;
+    for (pair<int, pair<int, int>> &p : v) {
+        if (cmp(p, tmp, itos)) tmp = p;
+    }
+    return tmp.second.second;
 }
 
-
-int main() {
-    int n, id;
-    string line, s;
-
+int main () {
+    int n;
     while (cin >> n) {
-        cin.ignore();
-        map<int, map<int, int>> connections;
-        map<string, int> word_id;
-        vector<string> id_word(1e5+5);
-        vector<int> cnt(1e5+5, 0);
+        cin.ignore ();
         
-        id = 2;
+
+        int id = 2;
+        MSI stoi;
+        VS itos(1e5+5);
+        VI cnt(1e5+5, 0);
+        map<int, map<int, int>> link;
+        
+        string line;
         for (int i = 0; i < n; i++) {
             getline(cin, line);
-            vector<int> v = split_string(line, word_id, id_word, id);
-
+            VI v  = split_string(line, id, stoi, itos);
+            
             cnt[1]++;
-
-            for (int j = 0; j < v.size()-1; j++) {
+            for (int j = 0; j < v.size(); j++) {
                 cnt[v[j]]++;
-                connections[v[j]][v[j + 1]]++;
+                link[v[j]][v[j+1]]++;
             }
             //for (auto n : v) cout <<n<<" ";cout<<endl;
         }
-
-        int actual = 0;
+        
+        
+        int start = 0;
         string ans = "";
-        bool found_cycle = false;
-        vector<int> visited(1e5 + 2, 0);
-        /*
-        for (auto &p : connections[4]) {
-            cout<<p.second<<" "<<cnt[p.first]<<" "<<p.first<<" "<<id_word[p.first]<<endl;
-            2 2 5 day
-            1 1 9 restaurant
-            1 1 15 weather
+        bool cycle = false;
+        VI Vis(1e5+5, 0);
+        while (!cycle) {
             
-            1 1 5 white
-            1 2 8 big   
-        }
-        cout<<endl;
-    */
-
-        while (!found_cycle) {
-            //nice day 2 day
-            vector<pair<int, pair<int, pair<int, string>>>> v;
-            visited[actual]++;
-
-            for (auto& p : connections[actual]) {
-                // nice(3)
-                v.push_back({p.second, {cnt[p.first], {p.first, id_word[p.first]}}});
+            Vis[start]++;
+            vector<pair<int, pair<int, int>>> v;
+            for (auto& p : link[start]) {
+                v.push_back({p.second, {cnt[p.first], p.first}});
             }
-
-            actual = next_id(v);
-
-            if (visited[actual])
-                found_cycle = true;
-            else if (actual == 1)
-                break;
+            
+            start = next_id(v, itos);
+            
+            if (Vis[start]) cycle = true;
+            else if (start == 1) break;
             else {
                 if (ans.size()) ans.push_back(' ');
-                ans += id_word[actual];
+                ans += itos[start];
             }
         }
-
-        if (found_cycle) cout << "INFINITE" << endl;
+        
+        if (cycle) cout << "INFINITE" << endl;
         else cout << ans << endl;
     }
-
     return 0;
 }
+/*
+    2 2 5 day
+    1 1 9 restaurant
+    1 1 15 weather
+    
+    1 1 5 white
+    1 2 8 big   
+*/
