@@ -1,6 +1,6 @@
 /*
  *
- * UVa 13303 - kewl Texting
+ *UVa 13303 - kewl Texting
  *
  */
 
