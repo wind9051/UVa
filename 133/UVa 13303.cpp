@@ -1,8 +1,4 @@
-/*
- *
- *UVa 13303 - kewl Texting
- *
- */
+// UVa 13303 - kewl Texting
 
 #include <bits/stdc++.h>
 using namespace std;
