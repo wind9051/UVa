@@ -41,8 +41,8 @@ int main () {
                 }
                   
             }
-            for (int x : V) cout<<x<<" "; cout<<endl;
-            for (int x : L) cout<<x<<" "; cout<<endl; 
+            //for (int x : V) cout<<x<<" "; cout<<endl;
+            //for (int x : L) cout<<x<<" "; cout<<endl; 
         }
         int maxl = 0, e = 0;
         for (int i = 1; i <= n; i++) {
