@@ -1,4 +1,3 @@
-//UVA10900 So you want to be a 2n - aire?
 /*
  * Title:  "UVa10900 - So you want to be a 2n - aire?"
  * Author: "Jia_coding"
