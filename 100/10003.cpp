@@ -1,4 +1,9 @@
-//
+/*
+ * Title:  "UVa10003 - Cutting Sticks"
+ * Author: "Jia_coding"
+ * Date:   "2024/08/16"
+ */
+
 #include <bits/stdc++.h>
 using namespace std;
 
@@ -28,7 +33,7 @@ int main() {
                 }
             }
         }
-        printf("最小切割成本为 %d.\n", DP[0][n + 1]);
+        printf("The minimum cutting is %d.\n", DP[0][n + 1]);
     }
     return 0;
 }
