@@ -1,11 +1,12 @@
 /*
- * UVa 10002 - Center of Masses
+ * Title:  "UVa10002 - Center of Masses"
+ * Author: "Jia_coding"
+ * Date:   "2024/08/16"
  */
 
 #include <bits/stdc++.h>
 using namespace std;
 
-// 定義點的資料結構，包括 x 和 y 座標，以及到參考點的距離 d
 struct point {
     double x, y, d;
 };
