@@ -1,6 +1,7 @@
 /*
- * UVa 10001 - Garden of Eden
- *
+ * Title:  "UVa10001 - Garden of Eden"
+ * Author: "Jia_coding"
+ * Date:   "2024/08/16"
  */
 
 #include <bits/stdc++.h>
