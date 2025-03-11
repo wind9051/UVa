@@ -6,6 +6,7 @@ set<string> S;
 
 int getMaxHandScore(int letterCnt, vector<pair<char, int>> &letters){
     int ret = 0;
+    //位運算枚舉子集
     for (int mask = 0; mask < (1<<letterCnt); mask++) {
         string tmp = "";
         int score = 0;
