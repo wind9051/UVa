@@ -4,20 +4,19 @@ using namespace std;
 int ans=0;
 set<string> S;
 
-int getMaxHandScore(int p, vector<pair<int, char>> &in){
+int getMaxHandScore(int letterCnt, vector<pair<char, int>> &letters){
     int ret = 0;
-    for (int i = 0; i < (1<<p); i++) {
+    for (int mask = 0; mask < (1<<letterCnt); mask++) {
         string tmp = "";
         int score = 0;
-        for (int j = 0; j < p; j++) {
-            if ((i & (1<<j))) {
-                score += in[j].first;
-                tmp += string(1,in[j].second);
+        for (int bit = 0; bit < letterCnt; bit++) {
+            if (mask & (1<<bit)) {
+                tmp += letters[bit].first;
+                score += letters[bit].second;
             }
         }
-        sort(begin(tmp), end(tmp));
         
-        if (S.find(tmp) != S.end()) ret = max(ret, score);
+        if (S.count(tmp)) ret = max(ret, score);
     }
     return ret;
 }
@@ -36,15 +35,16 @@ int main() {
     int T;
     cin >> T;
     while (T--) {
-        int p;
-        cin >> p;
-        vector<pair<int, char>> in(p);
-        for (int i = 0; i < p; i++) {
-            cin >> in[i].second >> in[i].first;
+        int letterCnt;
+        cin >> letterCnt;
+        vector<pair<char, int>> letters(letterCnt);
+        for (int i = 0; i < letterCnt; i++) {
+            cin >> letters[i].first >> letters[i].second;
         }
+        sort(begin(letters), end(letters));
 
-        ans=0;
-        cout << getMaxHandScore(p, in) << endl;
+        ans = 0;
+        cout << getMaxHandScore(letterCnt, letters) << endl;
     }
     return 0;
 }
