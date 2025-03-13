@@ -1,3 +1,11 @@
+/*
+ * Problem: "UVa 10999 - Crabbles"
+ *  Author: "Jia_coding"
+ *    Date: "2025/03/13"
+ *     Tag: Bitmask, Set, Subset
+ *          位元運算, 集合, 子集
+ */
+
 #include<bits/stdc++.h>
 using namespace std;
 
@@ -6,7 +14,7 @@ set<string> S;
 
 int getMaxHandScore(int letterCnt, vector<pair<char, int>> &letters){
     int ret = 0;
-    //位運算枚舉子集
+    //bit mask
     for (int mask = 0; mask < (1<<letterCnt); mask++) {
         string tmp = "";
         int score = 0;
