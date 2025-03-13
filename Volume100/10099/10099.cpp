@@ -3,7 +3,7 @@
  *  Author: "Jia_coding"
  *    Date: "2025/03/13"
  *     Tag: Kruskal, MST, Graph
- *          生成树, 圖
+ *          生成樹, 圖
  */
 
 #include <bits/stdc++.h>
