@@ -1,5 +1,5 @@
 /*
- * Problem: "UVA10970 - Big Chocolate"
+ * Problem: "UVa 10970 - Big Chocolate"
  *  Author: "Jia_coding"
  * 
  *     Tag: Math(數學)
