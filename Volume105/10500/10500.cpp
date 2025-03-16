@@ -2,8 +2,11 @@
  * Problem: "UVa 10500 - Robot maps"
  *  Author: "Jia_coding"
  *    Date: "2025/03/13"
- *     Tag: Matrix, Grid, Flood Fill, DFS
- *        : 矩陣, 網格, 洪水填滿, 深度優先搜尋
+ * 
+ *     Tag: Matrix, Grid, Flood Fill, DFS, Simulation, Robot Navigation
+ *        : 矩陣, 網格, 洪水填滿, 深度優先搜尋 (DFS), 模擬, 機器人導航
+ * 
+ *  Reference: https://onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&page=show_problem&problem=1441 
 **/
 
 #include <iostream>
