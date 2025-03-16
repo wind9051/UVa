@@ -2,8 +2,11 @@
  * Problem: "UVa10004 - Bicoloring"
  *  Author: "Jia_coding"
  *    Date: "2025/03/15"
+ * 
  *     Tag: Graph, BFS, Coloring
  *          圖, 廣度優先搜尋, 著色
+ * 
+ * Reference: https://onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&page=show_problem&problem=945
 **/
 
 #include <bits/stdc++.h>

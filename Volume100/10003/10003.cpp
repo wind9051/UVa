@@ -2,8 +2,10 @@
  * Problem: "UVa10003 - Cutting Sticks"
  *  Author: "Jia_coding"
  *    Date: "2025/03/15"
- *     Tag: DP
- *        : 動態規劃
+ *     Tag: DP, Minimum Cost
+ *        : 動態規劃, 最小成本
+ * 
+ * Reference: https://onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&page=show_problem&problem=944
 **/
 
 #include <bits/stdc++.h>

@@ -33,6 +33,7 @@ int main () {
         }
         //print(c, G);
         
+        // Floyd-Warshall
         for (int k = 1; k <= c; k++) {  
             for (int i = 1; i <= c; i++) {
                 for (int j = 1; j <= c; j++) {
@@ -40,6 +41,7 @@ int main () {
                 }     
             } 
         }
+        
         int max_len = 0, to = 0;
         for (int i = 1; i <= c; i++) {
             if (G[s][i] < max_len) {
