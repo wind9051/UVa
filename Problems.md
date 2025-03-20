@@ -270,9 +270,9 @@
 <details>
 <summary>13300~13399</summary>
 
-⬜ 13300-Ghost Hunting
-⬜ 13301-Impossible Communication
-✅ [13302 - Jawbreaking Candy](Volume133/13302/MD13302_zh.md)
-⬜ 13303-kewl Texting
+⬜ 13300-Ghost Hunting  
+⬜ 13301-Impossible Communication  
+✅ [13302 - Jawbreaking Candy](Volume133/13302/MD13302_zh.md)  
+⬜ 13303-kewl Texting  
 
 </details>
