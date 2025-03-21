@@ -5,7 +5,6 @@
  *     Tag: "DFS, Backtracking, Bit"
  *        : "深度優先搜尋, 回溯, 位元"
  * 
- * Reference: https://onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&page=show_problem&problem=1002
 **/
 
 
@@ -50,4 +49,3 @@ int main () {
     }
     return 0;
 }
-//11011100
