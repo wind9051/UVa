@@ -2746,16 +2746,20 @@
 * 10998-Flipping Colors
 * 10999-Crabbles
 # 11000-11099 <a id='11000-11099'></a>
-* 11000-Bee
-* 11001-Necklace
-* 11002-Towards Zero
-* 11003-Boxes
-* 11004-Changing Roadmap
-* 11005-Cheapest Base
-* 11006-Wheel Good
-* 11007-Mini Cube
-* 11008-Antimatter Ray Clearcutting
-* 11009-Geometry Once Again
+
+| 題號  | 題目連結 | 筆記 |
+|-------|-----------|-------|
+| 11000 | [Bee] |  [📒 Notion]()|
+| 11001 | [Necklace] | [📒 Notion]()|
+| 11002 | [Towards Zero] | [📒 Notion]()|
+| 11003 | [Boxes] | [📒 Notion]()|
+| 11004 | [Changing Roadmap] | [📒 Notion]()|
+| 11005 | [Cheapest Base] | [📒 Notion]()|
+| 11006 | [Wheel Good] | [📒 Notion]()|
+| 11007 | [Mini Cube] | [📒 Notion]()|
+| 11008 | [Antimatter Ray Clearcutting](Volume110/11008/UVa11008.cpp) | [📒 Notion](https://titanium-cylinder-f1d.notion.site/11008-243d4158fd158072a97df914ffe42a7b) |
+| 11009 | [Geometry Once Again] |[📒 Notion]() |
+
 * 11010-Tic-Tac-Tough
 * 11011-Numerical Methods! A Satire
 * 11012-Cosmic Cabbages
@@ -5069,3 +5073,4 @@
 * 13301-Impossible Communication
 * 13302-Jawbreaking Candy
 * 13303-kewl Texting
+
