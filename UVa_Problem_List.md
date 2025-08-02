@@ -2754,11 +2754,11 @@
 | 11002 | [Towards Zero] | [📒 Notion]|
 | 11003 | [Boxes] | [📒 Notion]|
 | 11004 | [Changing Roadmap] | [📒 Notion]|
-| 11005 | [Cheapest Base] | [📒 Notion]|
-| 11006 | [Wheel Good] | [📒 Notion]|
-| 11007 | [Mini Cube] | [📒 Notion]|
-| 11008 | [Antimatter Ray Clearcutting](Volume110/11008/UVa11008.cpp) | [📒 Notion](https://titanium-cylinder-f1d.notion.site/11008-243d4158fd158072a97df914ffe42a7b) |
-| 11009 | [Geometry Once Again] |[📒 Notion] |
+| 🟢11005 | [Cheapest Base](Volume110/11008/UVa11005.cpp) | [📒 Notion](https://titanium-cylinder-f1d.notion.site/11005-243d4158fd1580c69172ec106ebd77bb?pvs=74) |
+| 🔴11006 | [Wheel Good] | [📒 Notion]|
+| 🔴11007 | [Mini Cube] | [📒 Notion]|
+| 🟢11008 | [Antimatter Ray Clearcutting](Volume110/11008/UVa11008.cpp) | [📒 Notion](https://titanium-cylinder-f1d.notion.site/11008-243d4158fd158072a97df914ffe42a7b) |
+| 🔴11009 | [Geometry Once Again] |[📒 Notion] |
 
 * 11010-Tic-Tac-Tough
 * 11011-Numerical Methods! A Satire
