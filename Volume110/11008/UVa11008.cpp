@@ -1,5 +1,5 @@
 /*
- * Problem:  "UVa11008 - Antimatter Ray Clearcutting"
+ * Problem:  "UVa 11008 - Antimatter Ray Clearcutting"
  *  Author: "Jia_coding"
  * 
  *     Tag: DP(動態規劃), Bitmask(位元遮罩), (共線)
