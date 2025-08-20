@@ -1,9 +1,8 @@
 /*
- * Problem: "UVa10100 - Longest Match"
+ * Problem: "UVa 10100 - Longest Match"
  *  Author: "Jia_coding"
  *
- *     Tag: DP, LCS, Longest Common Subsequence
- *          DP, LCS, 最長公共子序列
+ *     Tag: 動態規劃(DP), 最長公共子序列(LCS)
  *
 **/
 
