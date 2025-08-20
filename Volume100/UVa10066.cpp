@@ -1,5 +1,5 @@
 /*
- * Problem: "UVa 10066 The Twin Towers"
+ * Problem: "UVa 10066 - The Twin Towers"
  *  Author: "Jia_coding"
  *
  *     Tag: 動態規劃(DP), 最長公共子序列(LCS)
