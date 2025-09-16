@@ -5,54 +5,55 @@
  *     Tag: 字串(String)
 **/
 
-#include <iostream>
+#include <bits/stdc++.h>
 using namespace std;
 
 int n, m;
-string s, s1, s2;
 
 int main() {
     int Case = 1;
     while (cin >> n && n) {
-        s1 = "";
+        string s;
+        vector<string> sv1, sv2;
+        
         cin.ignore();
         while(n--) {
             getline(cin, s);
-            s1 += s;
+            sv1.push_back(s);
         }
-        int l = s1.size();
 
         cin >> m;
-        s2 = "";
         cin.ignore();
         while(m--) {
             getline(cin, s);
-            s2 += s;
+            sv2.push_back(s);
         }
-
-        if (s1 == s2) {
-            printf("Run #%d: Accepted %d\n", Case++, l);
+        
+        
+        printf("Run #%d: ", Case++);
+        if (sv1 == sv2) {
+            printf("Accepted\n");
             continue;
         }
-
-        for (int i = 0; i < s1.size(); i++) {
-            if (s1[i] == ' ') {
-                s1.erase(i, 1);
-                i--;
-            }
-        }
-        for (int i = 0; i < s2.size(); i++) {
-            if (s2[i] == ' ') {
-                s2.erase(i, 1);
-                i--;
+        
+        string S1 = "", S2 = "";
+        for (auto s : sv1) {
+            for (auto c : s) {
+                if (isdigit(c)) S1 += c;
             }
         }
         
-        if (s1 == s2) {
-            printf("Run #%d: Presentation Error %d\n", Case++, l);
+        for (auto s : sv2) {
+            for (auto c : s) {
+                if (isdigit(c)) S2 += c;
+            }
+        }
+        
+        if (S1 == S2) {
+            printf("Presentation Error\n");
             continue;
         }
-        else printf("Run #%d: Wrong Answer %d\n", Case++, l);
+        else printf("Wrong Answer\n");
     }
     return 0;
 }
