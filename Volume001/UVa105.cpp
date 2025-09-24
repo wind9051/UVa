@@ -1,0 +1,32 @@
+/*
+ * Problem: "UVa 105 - The Skyline Problem "
+ *  Author: "Jia_coding"
+ * 
+ *     Tag: 陣列, 區間, 掃描線
+**/
+
+#include<bits/stdc++.h>
+using namespace std;
+
+int L, H, R;
+
+int main() {
+    vector<int> Sky(10005, 0);
+    int maxR = 0, minL = 10000;
+  	while (cin >> L >> H >> R) {
+    		for (int i = L; i < R; i++){
+    			  Sky[i] = max(Sky[i], H);
+    		}
+    		maxR = max(maxR, R);
+    		minL = min(minL, L);
+    		//for (auto x : Sky) cout<<x<<" ";cout<<endl;
+  	}
+  	for (int i = minL; i <= maxR; i++){
+  		  if (Sky[i-1] != Sky[i]){
+  			    cout << i << " " << Sky[i];
+  			    if (i != maxR) cout << " ";
+  		  }	
+  	}
+  	cout << endl;
+  	return 0;
+}
