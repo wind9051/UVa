@@ -1,5 +1,7 @@
 /*
  * Problem: "UVa 136 - Ugly Numbers"
+ *  GitHub: "https://github.com/wind9051/UVa"
+ *  Notion: "https://titanium-cylinder-f1d.notion.site/00193-272d4158fd1580f285c1d0766de5f1b3?source=copy_link"
  *  Author: "Jia_coding"
  * 
  *     Tag: 因數 - 醜數, 雙指針

@@ -1,5 +1,7 @@
 /*
  * Problem: "UVa 118 - Mutant Flatworld Expolrers"
+ *  GitHub: "https://github.com/wind9051/UVa"
+ *  Notion: "https://titanium-cylinder-f1d.notion.site/00118-271d4158fd1580c89212fd1516b074ec?source=copy_link"
  *  Author: "Jia_coding"
  * 
  *     Tag: 棋盤 - 網格

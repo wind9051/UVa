@@ -1,5 +1,7 @@
 /*
  * Problem: "UVa 100 - The 3n+1 problem"
+ *  GitHub: "https://github.com/wind9051/UVa"
+ *  Notion: "https://titanium-cylinder-f1d.notion.site/00100-269d4158fd15801cb8ccd533d92cabab?source=copy_link"
  *  Author: "Jia_coding"
  * 
  *     Tag: 數學(Math), 遞迴(Recursion), Collatz猜想(3n+1)
