@@ -1,5 +1,7 @@
 /*
  * Problem: "UVa 102 - Ecological Bin Packing"
+ *  GitHub: "https://github.com/wind9051/UVa"
+ *  Notion: "https://titanium-cylinder-f1d.notion.site/00102-269d4158fd15802693c4edd4495f5161?source=copy_link"
  *  Author: "Jia_coding"
  * 
  *     Tag: 貪心(Greedy), 全排列
