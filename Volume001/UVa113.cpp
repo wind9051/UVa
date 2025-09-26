@@ -1,6 +1,5 @@
 /*
  * Problem: "UVa 113 - Power of Cryptography"
- *  GitHub: "https://github.com/wind9051/UVa"
  *  Notion: "https://titanium-cylinder-f1d.notion.site/00113-271d4158fd15808b876cfeb377032da7?source=copy_link"
  *  Author: "Jia_coding"
  * 
