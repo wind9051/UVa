@@ -1,6 +1,5 @@
 /*
- * Problem: "UVa 105 - The Skyline Problem "
- *  GitHub: "https://github.com/wind9051/UVa"
+ * Problem: "UVa 105 - The Skyline Problem"
  *  Notion: "https://titanium-cylinder-f1d.notion.site/00105-269d4158fd15804d8ea1c30784bd2e13?source=copy_link"
  *  Author: "Jia_coding"
  * 

@@ -1,6 +1,5 @@
 /*
  * Problem: "UVa 146 - ID Codes"
- *  GitHub: "https://github.com/wind9051/UVa"
  *  Notion: "https://titanium-cylinder-f1d.notion.site/00146-278d4158fd1580da9db8cd349d81e39f?source=copy_link"
  *  Author: "Jia_coding"
  * 

@@ -1,6 +1,5 @@
 /*
  * Problem: "UVa 195 - Anagram"
- *  GitHub: "https://github.com/wind9051/UVa"
  *  Notion: "https://titanium-cylinder-f1d.notion.site/00195-272d4158fd15800fb749e687de6a539e?source=copy_link"
  *  Author: "Jia_coding"
  * 
