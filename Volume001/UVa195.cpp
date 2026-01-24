@@ -1,13 +1,11 @@
 /*
  * Problem: "UVa 195 - Anagram"
- *  Notion: "https://titanium-cylinder-f1d.notion.site/00195-272d4158fd15800fb749e687de6a539e?source=copy_link"
  *  Author: "Jia_coding"
  * 
- *     Tag: 排列組合
+ *     Tag: 排組（排列）
 **/
 
-#include <iostream>
-#include <algorithm>
+#include <bits/stdc++.h>
 using namespace std;
 
 bool cmp(char a, char b) {
