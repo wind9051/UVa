@@ -1,9 +1,8 @@
 /*
  * Problem: "UVa 1709 - Amalgamated Artichokes"
- *  GitHub: "https://github.com/wind9051/UVa"
  *  Author: "Jia_coding"
  * 
- *     Tag: 數學 - 股價, 最大差值 
+ *     Tag: 數學, 最大差值 
 **/
 
 #include <bits/stdc++.h>

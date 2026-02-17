@@ -1,6 +1,5 @@
 /*
  * Problem: "UVa 1726 - Automatic Cheater Detection"
- *  GitHub: "https://github.com/wind9051/UVa"
  *  Author: "Jia_coding"
  * 
  *     Tag: 二分搜(Binary Search) 
