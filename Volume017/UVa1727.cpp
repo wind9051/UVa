@@ -1,6 +1,5 @@
 /*
  * Problem: "UVa 1727 - Counting Weekend Days"
- *  GitHub: "https://github.com/wind9051/UVa"
  *  Author: "Jia_coding"
  * 
  *     Tag: 日期

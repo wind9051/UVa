@@ -1,7 +1,5 @@
 /*
  * Problem: "UVa 299 - Train Swapping"
- *  GitHub: "https://github.com/wind9051/UVa"
- *  Notion: "https://titanium-cylinder-f1d.notion.site/00299-272d4158fd158022b5bac245104c88fa?source=copy_link"
  *  Author: "Jia_coding"
  * 
  *     Tag: 排序(Sort) - 冒泡(Bubble Sort)
