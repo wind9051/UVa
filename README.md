@@ -1,28 +1,30 @@
 # 💻 UVa Online Judge & CPE大學程式能力檢定
 
-* 倉庫收錄本人整理 **CPE大學程式能力檢定** 和 **UVa Online Judge** 解法
+[![Language](https://img.shields.io/badge/Language-C%20%2F%20C%2B%2B-green.svg)](https://github.com/wind9051/UVa)
+
+[![CPE](https://img.shields.io/badge/CPE-5/7%20Solved%20(Professional)-blue.svg)](https://cpe.cse.nsysu.edu.tw/) [![UVa Solved](https://img.shields.io/badge/UVa-700+%20Solved-orange.svg)](https://uhunt.onlinejudge.org/id/1133261) 
 
 ---
 
-### ✨ 倉庫特色
+* 本倉庫收錄個人 **UVa Online Judge** 及 **CPE 大學程式能力檢定** 解題紀錄與程式碼實作。
 
-* **程式語言**： **C / C++** 
-* **程式註解**： 點擊註解**Notion 筆記連結**即可查看**解題步驟、思路**
+* **[📂 已解決題目清單 (UVa Problem List)](./UVa_Problem_List.md)**
+* **[📚 題目解題思路 (Notion)](https://www.notion.so/1b4d4158fd15807792b6cf8a096a31d6?v=25dd4158fd15803c948c000cca36bfc5)**
 
 ---
 
 ### 📚 目錄結構
 
-* 題目依據 **UVa 題目編號範圍(Volume)** 分類：
+* 倉庫依據 **UVa 題目編號範圍(Volume)** 分類：
 
 ```
-Volume (001~133)
-├── Code/ (程式碼檔案)
-│   ├── UVa10000.cpp
-│   └── ...
-└── PDF (題目原文)
-    ├── 10000.pdf
-    └── ...
+Volume (001)
+├── PDF (題目原文)
+|   ├── 10000.pdf
+|   └── ...
+├── UVa10000.cpp
+├── UVa10001.cpp
+└── ...
 ````
 ---
 
