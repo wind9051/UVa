@@ -4563,107 +4563,115 @@
 * 12797-Letters
 * 12798-Handball
 * 12799-RSA
+---
 # 12800-12899 <a id='12800-12899'></a>
-* 12800-Cut
-* 12801-Grandpa Pepe's Pizza
-* 12802-Gift From the Gods
-* 12803-Arithmetic Expressions
-* 12804-The Necronomicon of Computing
-* 12805-Raiders of the Lost Sign
-* 12806-Grand Tichu!
-* 12807-GPS
-* 12808-Banning Balconing
-* 12809-Binary Search Tree
-* 12810-Sumthing
-* 12811-The Turtle's Journey
-* 12812-The Largest Diamond-Shaped Kite
-* 12813-Mocking the Precision
-* 12814-Greedy's Pizza
-* 12815-Taking the Stairs
-* 12816-Isosceles Triangles
-* 12817-Sleight of Hand
-* 12818-Arc and Point
-* 12819-Block Toy
-* 12820-Cool Word
-* 12821-Double Shortest Paths
-* 12822-Extraordinarily large LED
-* 12823-Four coloring of a map
-* 12824-Giving directions to the tree
-* 12825-Happy Robot
-* 12826-Incomplete Chessboard
-* 12827-Just another pachinko-like machine
-* 12828-Kick the ball!
-* 12829-Just another pachinko-like machine (II)
-* 12830-A Football Stadium
-* 12831-Bob the Builder
-* 12832-Chicken Lover
-* 12833-Daily Potato
-* 12834-Extreme Terror
-* 12835-Fitting Pipes Again
-* 12836-Gain Battle Power
-* 12837-Hasmot Ali Professor
-* 12838-Identity Redemption
-* 12839-Judge in Queue
-* 12840-The Archery Puzzle
-* 12841-In Puzzleland (III)
-* 12842-The Courier Problem
-* 12843-Disputed Claims
-* 12844-Outwitting the Weighing Machine
-* 12845-The Jolly Friar's Puzzle
-* 12846-A Daisy Puzzle Game
-* 12847-Who Will Get the Nomination?
-* 12848-In Puzzleland (IV)
-* 12849-Mother's Jam Puzzle
-* 12850-Skating Puzzle
-* 12851-The Tinker's Puzzle
-* 12852-The Miser's Puzzle
-* 12853-The Pony Cart Problem
-* 12854-Automated Checking Machine
-* 12855-Black and white stones
-* 12856-Counting substhreengs
-* 12857-Dividing the names
-* 12858-Even distribution
-* 12859-Fence the vegetables
-* 12860-Galaxy collision
-* 12861-Help cupid
-* 12862-Intrepid climber
-* 12863-Journey through the kingdom
-* 12864-Knights of the Round Table
-* 12865-Volume Control
-* 12866-Combination
-* 12867-Mesh Cutter
-* 12868-Location
-* 12869-Zeroes
-* 12870-Fishing
-* 12871-Landmine Cleaner
-* 12872-Hidden Plus Signs
-* 12873-The Programmers
-* 12874-Blanket
-* 12875-Concert Tour
-* 12876-City
-* 12877-GREAT + SWERC = PORTO
-* 12878-Flowery Trails
-* 12879-Golf Bot
-* 12880-Book Club
-* 12881-Ricochet Robots
-* 12882-City Park
-* 12883-Playing with Geometry
-* 12884-Money Transfers
-* 12885-The Safe Secret
-* 12886-The Big Painting
-* 12887-The Soldier's Dilemma
-* 12888-Count LCM
-* 12889-Happy Birthday Tutu
-* 12890-Easy Peasy
-* 12891-Risk of Trading
-* 12892-Light Combat Aircraft
-* 12893-Count It
-* 12894-Perfect Flag
-* 12895-Armstrong Number
-* 12896-Mobile SMS
-* 12897-Decoding Baby Boos
-* 12898-And Or
-* 12899-A game for kids
+
+| 題號  | 題目連結 | 筆記 | 分類 |
+| ---   | --- | --- | --- |
+| 12800 | [Cut]() | [📒 Notion] |    |
+| 12801 | [Grandpa Pepe's Pizza]() | [📒 Notion]() | Array / Circle |
+| 12802 | [Gift From the Gods]() | [📒 Notion](https://www.google.com/search?q=) | Math / Palindrome |
+| 12803 | [Arithmetic Expressions]() | [📒 Notion](https://www.google.com/search?q=) | Expression Parsing |
+| 12804 | [The Necronomicon...]() | [📒 Notion]() | Simulation |
+| 12805 | [Raiders of the Lost Sign](https://www.google.com/search?q=https://onlinejudge.org/external/128/12805.pdf) | [📒 Notion](https://www.google.com/search?q=) | Math / Prime Factor |
+| 12806 | [Grand Tichu!](https://www.google.com/search?q=https://onlinejudge.org/external/128/12806.pdf) | [📒 Notion](https://www.google.com/search?q=) | DP / Probability |
+| 12807 | [GPS](https://www.google.com/search?q=https://onlinejudge.org/external/128/12807.pdf) | [📒 Notion](https://www.google.com/search?q=) | Graph / Dijkstra |
+| 12808 | [Banning Balconing](https://www.google.com/search?q=https://onlinejudge.org/external/128/12808.pdf) | [📒 物理平拋](https://www.google.com/search?q=%23) | Physics / Math |
+| 12809 | [Binary Search Tree](https://www.google.com/search?q=https://onlinejudge.org/external/128/12809.pdf) | [📒 區間 DP](https://www.google.com/search?q=%23) | DP / Tree |
+| 12810 | [Sumthing](https://www.google.com/search?q=https://onlinejudge.org/external/128/12810.pdf) | [📒 逆反模](https://www.google.com/search?q=%23) | Math / Modulo |
+| 12811 | [The Turtle's Journey](https://www.google.com/search?q=https://onlinejudge.org/external/128/12811.pdf) | [📒 Notion](https://www.google.com/search?q=) | Grid / BFS |
+| 12812 | [The Largest Diamond...](https://www.google.com/search?q=https://onlinejudge.org/external/128/12812.pdf) | [📒 Notion](https://www.google.com/search?q=) | DP / Matrix |
+| 12813 | [Mocking the Precision](https://www.google.com/search?q=https://onlinejudge.org/external/128/12813.pdf) | [📒 Notion](https://www.google.com/search?q=) | Precision / Math |
+| 12814 | [Greedy's Pizza](https://www.google.com/search?q=https://onlinejudge.org/external/128/12814.pdf) | [📒 Notion](https://www.google.com/search?q=) | Greedy |
+| 12815 | [Taking the Stairs](https://www.google.com/search?q=https://onlinejudge.org/external/128/12815.pdf) | [📒 Notion](https://www.google.com/search?q=) | Combinatorics |
+| 12816 | [Isosceles Triangles](https://www.google.com/search?q=https://onlinejudge.org/external/128/12816.pdf) | [📒 Notion](https://www.google.com/search?q=) | Geometry / Circle |
+| 12817 | [Sleight of Hand](https://www.google.com/search?q=https://onlinejudge.org/external/128/12817.pdf) | [📒 Notion](https://www.google.com/search?q=) | String / KMP |
+| 12818 | [Arc and Point](https://www.google.com/search?q=https://onlinejudge.org/external/128/12818.pdf) | [📒 Notion](https://www.google.com/search?q=) | Geometry |
+| 12819 | [Block Toy](https://www.google.com/search?q=https://onlinejudge.org/external/128/12819.pdf) | [📒 Notion](https://www.google.com/search?q=) | Geometry / 3D |
+| 12820 | [Cool Word](https://www.google.com/search?q=https://onlinejudge.org/external/128/12820.pdf) | [📒 Notion](https://www.google.com/search?q=) | String / Count |
+| 12821 | [Double Shortest Paths](https://www.google.com/search?q=https://onlinejudge.org/external/128/12821.pdf) | [📒 Notion](https://www.google.com/search?q=) | Min-cost Max-flow |
+| 12822 | [Extraordinarily large LED](https://www.google.com/search?q=https://onlinejudge.org/external/128/12822.pdf) | [📒 Notion](https://www.google.com/search?q=) | Simulation |
+| 12823 | [Four coloring of a map](https://www.google.com/search?q=https://onlinejudge.org/external/128/12823.pdf) | [📒 Notion](https://www.google.com/search?q=) | Graph / Backtrack |
+| 12824 | [Giving directions...](https://www.google.com/search?q=https://onlinejudge.org/external/128/12824.pdf) | [📒 Notion](https://www.google.com/search?q=) | Tree / BFS |
+| 12825 | [Happy Robot](https://www.google.com/search?q=https://onlinejudge.org/external/128/12825.pdf) | [📒 Notion](https://www.google.com/search?q=) | BFS / State |
+| 12826 | [Incomplete Chessboard](https://www.google.com/search?q=https://onlinejudge.org/external/128/12826.pdf) | [📒 Notion](https://www.google.com/search?q=) | BFS / Shortest Path |
+| 12827 | [Just another pachinko](https://www.google.com/search?q=https://onlinejudge.org/external/128/12827.pdf) | [📒 Notion](https://www.google.com/search?q=) | Probability / DP |
+| 12828 | [Kick the ball!](https://www.google.com/search?q=https://onlinejudge.org/external/128/12828.pdf) | [📒 Notion](https://www.google.com/search?q=) | Physics / Simulation |
+| 12829 | [Pachinko (II)](https://www.google.com/search?q=https://onlinejudge.org/external/128/12829.pdf) | [📒 Notion](https://www.google.com/search?q=) | Probability / DP |
+| 12830 | [A Football Stadium](https://www.google.com/search?q=https://onlinejudge.org/external/128/12830.pdf) | [📒 Notion](https://www.google.com/search?q=) | Geometry |
+| 12831 | [Bob the Builder](https://www.google.com/search?q=https://onlinejudge.org/external/128/12831.pdf) | [📒 Notion](https://www.google.com/search?q=) | Simulation / Geometry |
+| 12832 | [Chicken Lover](https://www.google.com/search?q=https://onlinejudge.org/external/128/12832.pdf) | [📒 Notion](https://www.google.com/search?q=) | Math / Fraction |
+| 12833 | [Daily Potato](https://www.google.com/search?q=https://onlinejudge.org/external/128/12833.pdf) | [📒 Notion](https://www.google.com/search?q=) | DP / Combinatorics |
+| 12834 | [Extreme Terror](https://www.google.com/search?q=https://onlinejudge.org/external/128/12834.pdf) | [📒 Notion](https://www.google.com/search?q=) | Greedy / Sorting |
+| 12835 | [Fitting Pipes Again](https://www.google.com/search?q=https://onlinejudge.org/external/128/12835.pdf) | [📒 Notion](https://www.google.com/search?q=) | Geometry / Sorting |
+| 12836 | [Gain Battle Power](https://www.google.com/search?q=https://onlinejudge.org/external/128/12836.pdf) | [📒 Notion](https://www.google.com/search?q=) | DP / Prefix Sum |
+| 12837 | [Hasmot Ali Professor](https://www.google.com/search?q=https://onlinejudge.org/external/128/12837.pdf) | [📒 Notion](https://www.google.com/search?q=) | String / Suffix |
+| 12838 | [Identity Redemption](https://www.google.com/search?q=https://onlinejudge.org/external/128/12838.pdf) | [📒 Notion](https://www.google.com/search?q=) | Graph / Matching |
+| 12839 | [Judge in Queue](https://www.google.com/search?q=https://onlinejudge.org/external/128/12839.pdf) | [📒 Notion](https://www.google.com/search?q=) | Priority Queue |
+| 12840 | [The Archery Puzzle](https://www.google.com/search?q=https://onlinejudge.org/external/128/12840.pdf) | [📒 Notion](https://www.google.com/search?q=) | DP / Change Making |
+| 12841 | [In Puzzleland (III)](https://www.google.com/search?q=https://onlinejudge.org/external/128/12841.pdf) | [📒 Notion](https://www.google.com/search?q=) | Hamiltonian Path |
+| 12842 | [The Courier Problem](https://www.google.com/search?q=https://onlinejudge.org/external/128/12842.pdf) | [📒 Notion](https://www.google.com/search?q=) | Binary Search |
+| 12843 | [Disputed Claims](https://www.google.com/search?q=https://onlinejudge.org/external/128/12843.pdf) | [📒 Notion](https://www.google.com/search?q=) | Geometry / Line |
+| 12844 | [Outwitting the Weighing...](https://www.google.com/search?q=https://onlinejudge.org/external/128/12844.pdf) | [📒 Notion](https://www.google.com/search?q=) | Brute Force / Math |
+| 12845 | [The Jolly Friar's...](https://www.google.com/search?q=https://onlinejudge.org/external/128/12845.pdf) | [📒 Notion](https://www.google.com/search?q=) | Puzzle / Search |
+| 12846 | [A Daisy Puzzle Game](https://www.google.com/search?q=https://onlinejudge.org/external/128/12846.pdf) | [📒 Notion](https://www.google.com/search?q=) | Game Theory / SG |
+| 12847 | [Who Get Nomination?](https://www.google.com/search?q=https://onlinejudge.org/external/128/12847.pdf) | [📒 Notion](https://www.google.com/search?q=) | Probability |
+| 12848 | [In Puzzleland (IV)](https://www.google.com/search?q=https://onlinejudge.org/external/128/12848.pdf) | [📒 Notion](https://www.google.com/search?q=) | Math / Fraction |
+| 12849 | [Mother's Jam Puzzle](https://www.google.com/search?q=https://onlinejudge.org/external/128/12849.pdf) | [📒 Notion](https://www.google.com/search?q=) | BFS / State |
+| 12850 | [Skating Puzzle](https://www.google.com/search?q=https://onlinejudge.org/external/128/12850.pdf) | [📒 Notion](https://www.google.com/search?q=) | BFS / Shortest Path |
+| 12851 | [The Tinker's Puzzle](https://www.google.com/search?q=https://onlinejudge.org/external/128/12851.pdf) | [📒 Notion](https://www.google.com/search?q=) | Math / Geometry |
+| 12852 | [The Miser's Puzzle](https://www.google.com/search?q=https://onlinejudge.org/external/128/12852.pdf) | [📒 Notion](https://www.google.com/search?q=) | Graph / Dijkstra |
+| 12853 | [The Pony Cart Problem](https://www.google.com/search?q=https://onlinejudge.org/external/128/12853.pdf) | [📒 Notion](https://www.google.com/search?q=) | Geometry / Circle |
+| 12854 | [Automated Checking...](https://www.google.com/search?q=https://onlinejudge.org/external/128/12854.pdf) | [📒 Notion](https://www.google.com/search?q=) | Simple Check |
+| 12855 | [Black and white stones](https://www.google.com/search?q=https://onlinejudge.org/external/128/12855.pdf) | [📒 Notion](https://www.google.com/search?q=) | Greedy / Cost |
+| 12856 | [Counting substhreengs](https://www.google.com/search?q=https://onlinejudge.org/external/128/12856.pdf) | [📒 Notion](https://www.google.com/search?q=) | DP / String |
+| 12857 | [Dividing the names](https://www.google.com/search?q=https://onlinejudge.org/external/128/12857.pdf) | [📒 Notion](https://www.google.com/search?q=) | Trie / Greedy |
+| 12858 | [Even distribution](https://www.google.com/search?q=https://onlinejudge.org/external/128/12858.pdf) | [📒 Notion](https://www.google.com/search?q=) | Graph / GCD |
+| 12859 | [Fence the vegetables](https://www.google.com/search?q=https://onlinejudge.org/external/128/12859.pdf) | [📒 Notion](https://www.google.com/search?q=) | Fenwick Tree / Sweep |
+| 12860 | [Galaxy collision](https://www.google.com/search?q=https://onlinejudge.org/external/128/12860.pdf) | [📒 Notion](https://www.google.com/search?q=) | Graph / Bipartite |
+| 12861 | [Help cupid](https://www.google.com/search?q=https://onlinejudge.org/external/128/12861.pdf) | [📒 Notion](https://www.google.com/search?q=) | Sorting / Greedy |
+| 12862 | [Intrepid climber](https://www.google.com/search?q=https://onlinejudge.org/external/128/12862.pdf) | [📒 Notion](https://www.google.com/search?q=) | Tree / DP |
+| 12863 | [Journey through...](https://www.google.com/search?q=https://onlinejudge.org/external/128/12863.pdf) | [📒 Notion](https://www.google.com/search?q=) | Graph / BFS |
+| 12864 | [Knights of the Round...](https://www.google.com/search?q=https://onlinejudge.org/external/128/12864.pdf) | [📒 Notion](https://www.google.com/search?q=) | Graph / Biconnected |
+| 12865 | [Volume Control](https://www.google.com/search?q=https://onlinejudge.org/external/128/12865.pdf) | [📒 Notion](https://www.google.com/search?q=) | Knapsack DP |
+| 12866 | [Combination](https://www.google.com/search?q=https://onlinejudge.org/external/128/12866.pdf) | [📒 Notion](https://www.google.com/search?q=) | Math / Digit DP |
+| 12867 | [Mesh Cutter](https://www.google.com/search?q=https://onlinejudge.org/external/128/12867.pdf) | [📒 Notion](https://www.google.com/search?q=) | Geometry |
+| 12868 | [Location](https://www.google.com/search?q=https://onlinejudge.org/external/128/12868.pdf) | [📒 Notion](https://www.google.com/search?q=) | Geometry / Circle |
+| 12869 | [Zeroes](https://www.google.com/search?q=https://onlinejudge.org/external/128/12869.pdf) | [📒 Notion](https://www.google.com/search?q=) | Math / Factorial |
+| 12870 | [Fishing](https://www.google.com/search?q=https://onlinejudge.org/external/128/12870.pdf) | [📒 Notion](https://www.google.com/search?q=) | DP / Matrix |
+| 12871 | [Landmine Cleaner](https://www.google.com/search?q=https://onlinejudge.org/external/128/12871.pdf) | [📒 Notion](https://www.google.com/search?q=) | Simulation / BFS |
+| 12872 | [Hidden Plus Signs](https://www.google.com/search?q=https://onlinejudge.org/external/128/12872.pdf) | [📒 Notion](https://www.google.com/search?q=) | DP / Mask |
+| 12873 | [The Programmers](https://www.google.com/search?q=https://onlinejudge.org/external/128/12873.pdf) | [📒 Notion](https://www.google.com/search?q=) | Network Flow |
+| 12874 | [Blanket](https://www.google.com/search?q=https://onlinejudge.org/external/128/12874.pdf) | [📒 Notion](https://www.google.com/search?q=) | Geometry / Area |
+| 12875 | [Concert Tour](https://www.google.com/search?q=https://onlinejudge.org/external/128/12875.pdf) | [📒 Notion](https://www.google.com/search?q=) | DP / Shortest Path |
+| 12876 | [City](https://www.google.com/search?q=https://onlinejudge.org/external/128/12876.pdf) | [📒 Notion](https://www.google.com/search?q=) | Graph / Flow |
+| 12877 | [GREAT + SWERC = PORTO](https://www.google.com/search?q=https://onlinejudge.org/external/128/12877.pdf) | [📒 Notion](https://www.google.com/search?q=) | Backtracking |
+| 12878 | [Flowery Trails](https://www.google.com/search?q=https://onlinejudge.org/external/128/12878.pdf) | [📒 Notion](https://www.google.com/search?q=) | Dijkstra / DAG |
+| 12879 | [Golf Bot](https://www.google.com/search?q=https://onlinejudge.org/external/128/12879.pdf) | [📒 Notion](https://www.google.com/search?q=) | FFT / Bitset |
+| 12880 | [Book Club](https://www.google.com/search?q=https://onlinejudge.org/external/128/12880.pdf) | [📒 Notion](https://www.google.com/search?q=) | Bipartite Matching |
+| 12881 | [Ricochet Robots](https://www.google.com/search?q=https://onlinejudge.org/external/128/12881.pdf) | [📒 Notion](https://www.google.com/search?q=) | BFS / State Search |
+| 12882 | [City Park](https://www.google.com/search?q=https://onlinejudge.org/external/128/12882.pdf) | [📒 Notion](https://www.google.com/search?q=) | Disjoint Set / Sweep |
+| 12883 | [Playing with Geometry](https://www.google.com/search?q=https://onlinejudge.org/external/128/12883.pdf) | [📒 Notion](https://www.google.com/search?q=) | Geometry |
+| 12884 | [Money Transfers](https://www.google.com/search?q=https://onlinejudge.org/external/128/12884.pdf) | [📒 Notion](https://www.google.com/search?q=) | Graph / Kruskal |
+| 12885 | [The Safe Secret](https://www.google.com/search?q=https://onlinejudge.org/external/128/12885.pdf) | [📒 Notion](https://www.google.com/search?q=) | Math / Prime |
+| 12886 | [The Big Painting](https://www.google.com/search?q=https://onlinejudge.org/external/128/12886.pdf) | [📒 Notion](https://www.google.com/search?q=) | 2D Hashing / KMP |
+| 12887 | [The Soldier's Dilemma](https://www.google.com/search?q=https://onlinejudge.org/external/128/12887.pdf) | [📒 Notion](https://www.google.com/search?q=) | Math / DP |
+| 12888 | [Count LCM](https://www.google.com/search?q=https://onlinejudge.org/external/128/12888.pdf) | [📒 Notion](https://www.google.com/search?q=) | Inclusion-Exclusion |
+| 12889 | [Happy Birthday Tutu](https://www.google.com/search?q=https://onlinejudge.org/external/128/12889.pdf) | [📒 Notion](https://www.google.com/search?q=) | Greedy / Sorting |
+| 12890 | [Easy Peasy](https://www.google.com/search?q=https://onlinejudge.org/external/128/12890.pdf) | [📒 Notion](https://www.google.com/search?q=) | Sliding Window |
+| 12891 | [Risk of Trading](https://www.google.com/search?q=https://onlinejudge.org/external/128/12891.pdf) | [📒 Notion](https://www.google.com/search?q=) | Probability / DP |
+| 12892 | [Light Combat Aircraft](https://www.google.com/search?q=https://onlinejudge.org/external/128/12892.pdf) | [📒 Notion](https://www.google.com/search?q=) | Geometry / 3D |
+| 12893 | [Count It](https://www.google.com/search?q=https://onlinejudge.org/external/128/12893.pdf) | [📒 Notion](https://www.google.com/search?q=) | Recursion / DP |
+| 12894 | [Perfect Flag](https://www.google.com/search?q=https://onlinejudge.org/external/128/12894.pdf) | [📒 Notion](https://www.google.com/search?q=) | Simple Check |
+| 12895 | [Armstrong Number](https://www.google.com/search?q=https://onlinejudge.org/external/128/12895.pdf) | [📒 Notion](https://www.google.com/search?q=) | Math / Loop |
+| 12896 | [Mobile SMS](https://www.google.com/search?q=https://onlinejudge.org/external/128/12896.pdf) | [📒 Notion](https://www.google.com/search?q=) | Array / Mapping |
+| 12897 | [Decoding Baby Boos](https://www.google.com/search?q=https://onlinejudge.org/external/128/12897.pdf) | [📒 Notion](https://www.google.com/search?q=) | String / Mapping |
+| 12898 | [And Or](https://www.google.com/search?q=https://onlinejudge.org/external/128/12898.pdf) | [📒 Notion](https://www.google.com/search?q=) | Bitwise Operation |
+| 12899 | [A game for kids](https://www.google.com/search?q=https://onlinejudge.org/external/128/12899.pdf) | [📒 Notion](https://www.google.com/search?q=) | Segment Tree |
+
+---
+
+
 # 12900-12999 <a id='12900-12999'></a>
 * 12900-Flood in Gridland
 * 12901-Refraction
@@ -4766,6 +4774,26 @@
 * 12998-Tree Weights
 * 12999-Defense Plan
 # 13000-13099 <a id='13000-13099'></a>
+
+| 題號  | 題目連結 | 分類 |
+| ---   | --- | --- |
+| 13030 | [Brain Fry](Volume130/UVa13030.cpp) |    |
+| 13031 | [Geek Power Inc.](Volume130/UVa13031.cpp) |   |
+| 13032 | [Marbles in Jars](Volume130/UVa13032.cpp) |   |
+| 13033 | [Jumping Frogs II](Volume130/UVa13033.cpp) |    |
+| 13034 | [Solve Everything :-)](Volume130/UVa13034.cpp) |     |
+| 13035 | [Another Combination Problem](Volume130/UVa13035.cpp) |     |
+| 13036 | [Birthday Gift to SJ-2](Volume130/UVa13036.cpp) |    |
+| 13037 | [Chocolate](Volume130/UVa13037.cpp) |   |
+| 13038 | [Directed Forest](Volume130/UVa13038.cpp) |     |
+| 13039 | [Fibonacci Triangle](Volume130/UVa13039.cpp) |    |
+
+| 13031 | [](Volume130/UVa13030.cpp) |    |
+
+
+* 13040-Flyovers of Khakha
+
+
 * 13000-VIP Treatment
 * 13001-Jumping Frogs
 * 13002-Just Some Permutation 5
@@ -4796,17 +4824,9 @@
 * 13027-Moroccan Wooden Box
 * 13028-XOR Subset
 * 13029-Emoticons
-* 13030-Brain Fry
-* 13031-Geek Power Inc.
-* 13032-Marbles in Jars
-* 13033-Jumping Frogs II
-* 13034-Solve Everything :-)
-* 13035-Another Combination Problem
-* 13036-Birthday Gift to SJ-2
-* 13037-Chocolate
-* 13038-Directed Forest
-* 13039-Fibonacci Triangle
-* 13040-Flyovers of Khakha
+
+
+
 * 13041-Fraction and Sequence
 * 13042-Ikroch
 * 13043-Marbles
