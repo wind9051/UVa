@@ -863,107 +863,114 @@
 * 897-Anagrammatic Primes
 * 898-Hole Cutter
 * 899-Colour Circles
+---
+
 # 900-999 <a id='900-999'></a>
-* 900-Brick Wall Patterns
-* 901-From Databases to XML
-* 902-Password Search
-* 903-Spiral of Numbers
-* 904-Overlapping Air Traffic Control Zones
-* 905-Tacos Panchita
-* 906-Rational Neighbor
-* 907-Winterim Backpacking Trip
-* 908-Re-connecting Computer Sites
-* 909-The BitPack Data Compression Problem
-* 910-TV game
-* 911-Multinomial Coefficients
-* 912-Live From Mars
-* 913-Joana and the Odd Numbers
-* 914-Jumping Champion
-* 915-Stack of Cylinders
-* 916-Dividing Land
-* 917-Euro 2004
-* 918-ASCII Mandelbrot
-* 919-Cutting Polyominoes
-* 920-Sunny Mountains
-* 921-A Word Puzzle in the Sunny Mountains
-* 922-Rectangle by the Ocean
-* 923-One Against Many
-* 924-Spreading The News
-* 925-No more prerequisites, please!
-* 926-Walking Around Wisely
-* 927-Integer Sequences from Addition of Terms
-* 928-Eternal Truths
-* 929-Number Maze
-* 930-Polynomial Roots
-* 931-The Probable n-Ascendants
-* 932-Checking the N-Queens Problem
-* 933-Water Flow
-* 934-Overlapping Areas
-* 935-Smart Strategy
-* 936-Mars for Sale
-* 937-Kriss Kross Puzzle
-* 938-Gilix
-* 939-Genes
-* 940-Autobiographical Numbers
-* 941-Permutations
-* 942-Cyclic Numbers
-* 943-Number Format Translator
-* 944-Happy Numbers
-* 945-Loading a Cargo Ship
-* 946-A Pile of Boxes
-* 947-Master Mind Helper
-* 948-Fibonaccimal Base
-* 949-Getaway
-* 950-Tweedle Numbers
-* 951-The Pieces of the Puzzle
-* 952-Uno game
-* 953-The Incredible Pile Machine
-* 954-Tetravex solver
-* 955-Interpreting Old Maps
-* 956-The Minimum Slot Machine
-* 957-Popes
-* 958-A Homer's Holiday
-* 959-Car Rallying
-* 960-Gaussian Primes
-* 961-Ambiguous or Incomplete Inductive Definitions
-* 962-Taxicab Numbers
-* 963-Spelling Corrector
-* 964-Custom Language
-* 965-Police Road Blocks
-* 966-Lost Inheritances
-* 967-Circular
-* 968-Constellations
-* 969-AlienAlgebra
-* 970-Particles
-* 971-Towers
-* 972-Horizon Line
-* 973-The Guessing Game
-* 974-Kaprekar Numbers
-* 975-Gutenberg Clumsy Helper
-* 976-Bridge Building
-* 977-Old West Rumours
-* 978-Lemmings Battle!
-* 979-The Abominable Triangleman
-* 980-X-Express
-* 981-Systematic Cyclic Redundancy Check Codes
-* 982-Cube
-* 983-Localized Summing for Blurring
-* 984-Finding Haplotypes
-* 985-Round and Round Maze
-* 986-How Many?
-* 987-Maternity
-* 988-Many Paths, One Destination
-* 989-Su Doku
-* 990-Diving for Gold
-* 991-Safe Salutations
-* 992-Customer Service Cost Evaluation
-* 993-Product of digits
-* 994-POP
-* 995-Super Divisible Numbers
-* 996-Find the Sequence
-* 997-Show the Sequence
-* 998-Dendogram
-* 999-Book signatures
+| 題號 | 題目連結 | 分類 |
+| --- | --- | --- |
+| 🟢900 | [Brick Wall Patterns](Volume009/UVa900.cpp) |  |
+| 901 | [From Databases to XML](Volume009/UVa901.cpp) |  |
+| 🟢902 | [Password Search](Volume009/UVa902.cpp) |  |
+| 903 | [Spiral of Numbers](Volume009/UVa903.cpp) |  |
+| 904 | [Overlapping Air Traffic Control Zones](Volume009/UVa904.cpp) |  |
+| 905 | [Tacos Panchita](Volume009/UVa905.cpp) |  |
+| 🟢906 | [Rational Neighbor](Volume009/UVa906.cpp) |  |
+| 🟢907 | [Winterim Backpacking Trip](Volume009/UVa907.cpp) |  |
+| 🟢908 | [Re-connecting Computer Sites](Volume009/UVa908.cpp) |  |
+| 909 | [The BitPack Data Compression Problem](Volume009/UVa909.cpp) |  |
+| 910 | [TV game](Volume009/UVa910.cpp) |  |
+| 🟢911 | [Multinomial Coefficients](Volume009/UVa911.cpp) |  |
+| 912 | [Live From Mars](Volume009/UVa912.cpp) |  |
+| 🟢913 | [Joana and the Odd Numbers](Volume009/UVa913.cpp) |  |
+| 🟢914 | [Jumping Champion](Volume009/UVa914.cpp) |  |
+| 915 | [Stack of Cylinders](Volume009/UVa915.cpp) |  |
+| 916 | [Dividing Land](Volume009/UVa916.cpp) |  |
+| 917 | [Euro 2004](Volume009/UVa917.cpp) |  |
+| 🟢918 | [ASCII Mandelbrot](Volume009/UVa918.cpp) |  |
+| 919 | [Cutting Polyominoes](Volume009/UVa919.cpp) |  |
+| 920 | [Sunny Mountains](Volume009/UVa920.cpp) |  |
+| 921 | [A Word Puzzle in the Sunny Mountains](Volume009/UVa921.cpp) |  |
+| 922 | [Rectangle by the Ocean](Volume009/UVa922.cpp) |  |
+| 923 | [One Against Many](Volume009/UVa923.cpp) |  |
+| 924 | [Spreading The News](Volume009/UVa924.cpp) |  |
+| 925 | [No more prerequisites, please!](Volume009/UVa925.cpp) |  |
+| 926 | [Walking Around Wisely](Volume009/UVa926.cpp) |  |
+| 🟢927 | [Integer Sequences from Addition of Terms](Volume009/UVa927.cpp) |  |
+| 928 | [Eternal Truths](Volume009/UVa928.cpp) |  |
+| 929 | [Number Maze](Volume009/UVa929.cpp) |  |
+| 930 | [Polynomial Roots](Volume009/UVa930.cpp) |  |
+| 931 | [The Probable n-Ascendants](Volume009/UVa931.cpp) |  |
+| 932 | [Checking the N-Queens Problem](Volume009/UVa932.cpp) |  |
+| 933 | [Water Flow](Volume009/UVa933.cpp) |  |
+| 934 | [Overlapping Areas](Volume009/UVa934.cpp) |  |
+| 935 | [Smart Strategy](Volume009/UVa935.cpp) |  |
+| 936 | [Mars for Sale](Volume009/UVa936.cpp) |  |
+| 937 | [Kriss Kross Puzzle](Volume009/UVa937.cpp) |  |
+| 938 | [Gilix](Volume009/UVa938.cpp) |  |
+| 939 | [Genes](Volume009/UVa939.cpp) |  |
+| 940 | [Autobiographical Numbers](Volume009/UVa940.cpp) |  |
+| 941 | [Permutations](Volume009/UVa941.cpp) |  |
+| 942 | [Cyclic Numbers](Volume009/UVa942.cpp) |  |
+| 943 | [Number Format Translator](Volume009/UVa943.cpp) |  |
+| 944 | [Happy Numbers](Volume009/UVa944.cpp) |  |
+| 945 | [Loading a Cargo Ship](Volume009/UVa945.cpp) |  |
+| 946 | [A Pile of Boxes](Volume009/UVa946.cpp) |  |
+| 947 | [Master Mind Helper](Volume009/UVa947.cpp) |  |
+| 948 | [Fibonaccimal Base](Volume009/UVa948.cpp) |  |
+| 949 | [Getaway](Volume009/UVa949.cpp) |  |
+| 950 | [Tweedle Numbers](Volume009/UVa950.cpp) |  |
+| 951 | [The Pieces of the Puzzle](Volume009/UVa951.cpp) |  |
+| 952 | [Uno game](Volume009/UVa952.cpp) |  |
+| 953 | [The Incredible Pile Machine](Volume009/UVa953.cpp) |  |
+| 954 | [Tetravex solver](Volume009/UVa954.cpp) |  |
+| 955 | [Interpreting Old Maps](Volume009/UVa955.cpp) |  |
+| 956 | [The Minimum Slot Machine](Volume009/UVa956.cpp) |  |
+| 957 | [Popes](Volume009/UVa957.cpp) |  |
+| 958 | [A Homer's Holiday](Volume009/UVa958.cpp) |  |
+| 959 | [Car Rallying](Volume009/UVa959.cpp) |  |
+| 960 | [Gaussian Primes](Volume009/UVa960.cpp) |  |
+| 961 | [Ambiguous or Incomplete Inductive Definitions](Volume009/UVa961.cpp) |  |
+| 962 | [Taxicab Numbers](Volume009/UVa962.cpp) |  |
+| 963 | [Spelling Corrector](Volume009/UVa963.cpp) |  |
+| 964 | [Custom Language](Volume009/UVa964.cpp) |  |
+| 965 | [Police Road Blocks](Volume009/UVa965.cpp) |  |
+| 966 | [Lost Inheritances](Volume009/UVa966.cpp) |  |
+| 967 | [Circular](Volume009/UVa967.cpp) |  |
+| 968 | [Constellations](Volume009/UVa968.cpp) |  |
+| 969 | [AlienAlgebra](Volume009/UVa969.cpp) |  |
+| 970 | [Particles](Volume009/UVa970.cpp) |  |
+| 971 | [Towers](Volume009/UVa971.cpp) |  |
+| 972 | [Horizon Line](Volume009/UVa972.cpp) |  |
+| 973 | [The Guessing Game](Volume009/UVa973.cpp) |  |
+| 974 | [Kaprekar Numbers](Volume009/UVa974.cpp) |  |
+| 975 | [Gutenberg Clumsy Helper](Volume009/UVa975.cpp) |  |
+| 976 | [Bridge Building](Volume009/UVa976.cpp) |  |
+| 977 | [Old West Rumours](Volume009/UVa977.cpp) |  |
+| 978 | [Lemmings Battle!](Volume009/UVa978.cpp) |  |
+| 979 | [The Abominable Triangleman](Volume009/UVa979.cpp) |  |
+| 980 | [X-Express](Volume009/UVa980.cpp) |  |
+| 981 | [Systematic Cyclic Redundancy Check Codes](Volume009/UVa981.cpp) |  |
+| 982 | [Cube](Volume009/UVa982.cpp) |  |
+| 983 | [Localized Summing for Blurring](Volume009/UVa983.cpp) |  |
+| 984 | [Finding Haplotypes](Volume009/UVa984.cpp) |  |
+| 985 | [Round and Round Maze](Volume009/UVa985.cpp) |  |
+| 986 | [How Many?](Volume009/UVa986.cpp) |  |
+| 987 | [Maternity](Volume009/UVa987.cpp) |  |
+| 988 | [Many Paths, One Destination](Volume009/UVa988.cpp) |  |
+| 989 | [Su Doku](Volume009/UVa989.cpp) |  |
+| 990 | [Diving for Gold](Volume009/UVa990.cpp) |  |
+| 991 | [Safe Salutations](Volume009/UVa991.cpp) |  |
+| 992 | [Customer Service Cost Evaluation](Volume009/UVa992.cpp) |  |
+| 993 | [Product of digits](Volume009/UVa993.cpp) |  |
+| 994 | [POP](Volume009/UVa994.cpp) |  |
+| 995 | [Super Divisible Numbers](Volume009/UVa995.cpp) |  |
+| 996 | [Find the Sequence](Volume009/UVa996.cpp) |  |
+| 997 | [Show the Sequence](Volume009/UVa997.cpp) |  |
+| 998 | [Dendogram](Volume009/UVa998.cpp) |  |
+| 999 | [Book signatures](Volume009/UVa999.cpp) |  |
+
+---
+
 # 1000-1099 <a id='1000-1099'></a>
 * 1000-Airport Configuration
 * 1001-Say Cheese
