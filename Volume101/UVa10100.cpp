@@ -3,7 +3,6 @@
  *  Author: "Jia_coding"
  *
  *     Tag: 動態規劃(DP), 最長公共子序列(LCS)
- *
 **/
 
 #include <bits/stdc++.h>
@@ -35,6 +34,7 @@ int main () {
             }
         }
         
+        //LCS
         vector<vector<int>> LCS(1005, vector<int>(1005, 0)); 
         for (int i = 1; i <= st1.size(); i++) { 
             for (int j = 1; j <= st2.size(); j++) { 
@@ -42,6 +42,7 @@ int main () {
                 else LCS[i][j] = max(LCS[i][j-1], LCS[i-1][j]); 
             }
         }
+        
         printf("%2d. ", Case++);
         if (s1.size() == 1 || s2.size() == 1) printf("Blank!\n");
         else printf("Length of longest match: %d\n", LCS[st1.size()][st2.size()]);

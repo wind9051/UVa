@@ -3,8 +3,6 @@
  *  Author: "Jia_coding"
  *
  *     Tag: 數學(Math), 平方數(Perfect Square)
- *          
- *
 **/
 
 #include <bits/stdc++.h>

@@ -9,59 +9,40 @@
 using namespace std;
 
 int N, M, idcnt, treecnt;
-int root[5005], Rank[5005];
+int root[5005], rnk[5005];
 
-struct point {
+struct Point {
     int x, y;
 } P[755];
 
-struct edge {
+struct Edge {
     int u, v; 
     double w;
-} E[800*800];
 
-bool cmp(edge & a, edge & b) {
-    return a.w < b.w;
-}
-
-void init() {
-    for(int i = 0; i <= N; i++) {
-        root[i] = i, Rank[i] = 1; 
+    bool operator< (const Edge & other) const {
+        return w < other.w;
     }
-}
+};
 
 int find_root(int x) {
     if (root[x] == x) return x;
     return root[x] = find_root(root[x]);
 }
 
-//歐幾里得距離（Euclidean Distance）
-double dist(double x1, double x2, double y1, double y2) {
-    return sqrt((x2-x1) * (x2-x1) + (y2-y1) * (y2-y1));
+
+double dist(Point &a, Point &b) {
+    return hypot(a.x - b.x, a.y - b.y);
 }
 
-void kruskal() {
-    //double sum = 0.0;
-    treecnt = 0;
-    for (int i = 0; i < idcnt; i++) {
-        int x = find_root(E[i].u);
-        int y = find_root(E[i].v);
-        if (x != y) {
-            if (E[i].w) printf("%d %d\n", E[i].u, E[i].v);
-            if (Rank[x] > Rank[y]) {
-                Rank[x] += Rank[y];
-                root[y] = x;
-            }
-            else {
-                Rank[y] += Rank[x];
-                root[x] = y;
-            }
-            treecnt++;
-            //sum += E[i].w;
-        }
-        
-    }
-    //printf("%.2f\n", sum);
+void UNION(int a, int b) {
+    int x = find_root(a);
+    int y = find_root(b);
+    if (x == y) return;
+
+    if (rnk[x] < rnk[y]) swap(x, y);
+
+    root[y] = x;
+    rnk[x] += rnk[y];
 }
 
 int main() {
@@ -71,37 +52,43 @@ int main() {
         cin >> N;
         for (int i = 1; i <= N; i++) {
             cin >> P[i].x >> P[i].y;
+
+            //init()
+            root[i] = i, rnk[i] = 1; 
         }
 
         cin >> M;
+        
         for (int i = 0; i < M; i++) {
-            cin >> E[i].u >> E[i].v;
-            E[i].w = 0;
+            int u, v;
+            cin >> u >> v;
+            UNION(u, v);
         }
 
-        init();
-
-        idcnt = M;
-
-        kruskal();
-    
-
-        if (treecnt == N - 1) {
-            printf("No new highways need\n");
-        }
-        else {
-            idcnt = 0;
-            for (int i = 1; i <= N-1; i++) {
-                for (int j = i + 1; j <= N; j++) {
-                    E[idcnt].u = i;
-                    E[idcnt].v = j;
-                    E[idcnt++].w = dist(P[i].x, P[j].x, P[i].y, P[j].y);
-                }
+        vector<Edge> edges;
+        for (int i = 1; i <= N-1; i++) {
+            for (int j = i + 1; j <= N; j++) {
+                edges.push_back({i, j, dist(P[i], P[j])});
             }
-            sort(E, E+idcnt, cmp);
+        }
+        sort(edges.begin(), edges.end());
 
-            //kruskal
-            kruskal();
+        //kruskal
+        vector<Edge> ans;
+        for (auto &e : edges) {
+            if (find_root(e.u) != find_root(e.v)) {
+                UNION(e.u, e.v);
+                ans.push_back({e.u, e.v});
+            }
+        }
+
+        if (ans.empty()) {
+            cout << "No new highways need\n";
+        } 
+        else {
+            for (auto &p : ans) {
+                cout << p.u << " " << p.v << "\n";
+            }
         }
 
         if (t) printf("\n");

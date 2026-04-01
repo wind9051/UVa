@@ -3,8 +3,6 @@
  *  Author: "Jia_coding"
  *
  *     Tag: 數學(Math), 最大公因數(GCD), 擴展歐幾里得(Extended Euclidean Algorithm), 
- *          
- *
 **/
 
 #include <iostream>
