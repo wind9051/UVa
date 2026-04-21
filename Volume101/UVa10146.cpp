@@ -3,8 +3,6 @@
  *  Author: "Jia_coding"
  *
  *     Tag: 字串(String), 前綴(Prefix), 字典樹(Dictionary Tree)
- *          
- *
 **/
 
 #include <bits/stdc++.h>
@@ -13,16 +11,12 @@ using namespace std;
 int main () {
     int t;
     cin >> t;
-    cin.ignore();
-    string ig;
-    getline(cin, ig); //ignore();
+    cin.get();
+    cin.get(); //ignore();
     while (t--) {
         int spaces = 0;
         string word, preWord = "";
-        
-        while (getline(cin, word)) {
-            if (!word.size()) break;
-
+        while (getline(cin, word) && word.size()) {
             int cnt = 0;
             for (int i = 0; i < min(word.size(), preWord.size()); i++) {
                 if (word[i] != preWord[i]) break;
