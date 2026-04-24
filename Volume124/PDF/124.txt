@@ -1,0 +1,261 @@
+
+--------------------------------------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------------------------------------
+
+12495 ‘C’ for Count
+
+In how many ways you can select K objects from N different circularly placed objects such that the
+selection does not contain any pair of distinct objects having distance less than D around the circle?
+Here distance is the minimum of clockwise and anticlockwise distance. Details in following figure:
+
+Here, 5 objects {A, B, C, D, E} are placed circularly. Say, K = 2 and D = 2, then the 5 possible
+selections are {A, C}, {A, D}, {B, D}, {B, E}, {C, E}. A selection is considered to be different from
+the others if it contains at least 1 object which is not present in the other selection.
+
+Input
+First line of the input contains a positive integer T (T  5000). Each of the following T lines contains
+three positive integers N (1  N  1000), K (1  K  N) and D (1  D  10), respectively.
+
+Output
+For each case, print a line of the form ‘Case < x >: < y >’, where x is the case number and y is the
+number of ways modulo 1000000007 (109 + 7).
+
+Sample Input
+45
+2 2
+5 2 1
+3 2 2
+10 3 2
+
+Sample Output
+Case 1: 5
+Case 2: 10
+Case 3: 0
+Case 4: 50
+
+--------------------------------------------------------------------------------------------------------------
+
+12496 Fisherman’s Dilemma
+
+Your brother is playing a game. There is a tank full of live fishes. The tank has n  m cells and
+arranged in n rows and m columns. (1  n;m  200). Before each round, each cell is filled with
+a number of fishes (can be at most 20 in each cell). Those fishes dont move much and stay in their
+own cells. His only tool is a rectangular trap. Its dimensions can be controlled (can have any positive
+integer dimension) and can be placed anywhere given that no part of your trap is outside the tank and
+no cell is partially covered. Your brother is very bad at setting traps and any of the possible top-left
+and bottom-right positions of the trap satisfying the aforementioned condition is equally likely. All his
+opponents have already attempted and the highest score among them is K  112500. He’ll have to
+score at least K to win (or tie for first place). What is the probability of this to happen?
+
+Input
+The input starts with a number T ( 50), denoting the number of test cases. T test cases will follow.
+Each test case starts with three integers n, m and K as mentioned in problem statement. n rows of m
+numbers will follow. j-th integer of i-th row will be the number of fishes in the cell at i-th row and j-th
+column.
+
+Output
+For each test case, print test case number and the probability as a reduced fraction. Reduced fraction
+means, if the probability is a/b, make sure that there is no common factor (greater than 1) between a
+and b. (Say the answer is 4/6, then you should print ‘2/3’). The answer will always be positive. Refer
+to the sample output for exact format.
+
+Sample Input
+12
+8 76
+15 1 10 5 19 19 3 5
+6 6 2 8 2 12 16 3
+
+Sample Output
+Case 1: 13/108
+
+--------------------------------------------------------------------------------------------------------------
+
+12497 Chatgaiya Postman Problem
+
+Nowadays, mail delivery through postal order has been increased a lot in Chatgao city and there is
+only one postman in the city. Every day he has to run through almost all the roads in the city. As he
+is very much lazy, he is tired of this and wants to make a plan to get rid of it.
+
+According to his new plan, he will always start his mail delivery from a house and go through some
+distinct houses, will come back to the starting house and take rest, then he will go through another
+route of distinct houses and will come back to the starting house again. Note that the houses of the
+first and second round should also be different. He calls these types of routes dumbbell routes. Now he
+is curious about how many dumbbell routes are there in the city. As he is a lazy person he gives the
+job to find the number of dumbbell routes in the city Chatgao to you.
+
+Formally, there are N houses C0, C1, …, CN􀀀1. Available road connections between houses are also
+provided as input. A dumbbell route is a sequence of houses Ck1 , Ck2 , …, Ckp , …, Ckq where
+
+1. Every consecutive houses Cki and Cki+1 (for 1  i < q) are connected by a road
+2. Ck1 = Ckp = Ckq and Ci ̸= Cj for every other i, j pair
+3. p > 3 and q > p + 2
+
+Find how many distinct dumbbell routes are there in the city. Two dumbbell routes will be considered
+same if they have same set of roads.
+
+In the above example, there is only one dumbbell route. The routes 2-1-0-2-3-4-2 and
+2-0-1-2-3-4-2 are same.
+
+Input
+Input starts with a positive integer, T (T  100) denoting the number of test cases. Each case
+starts with two integers, N (1  N  13) number of houses (indexed from 0 to N 􀀀 1) and M
+(0  M  N  (N 􀀀 1)/2) number of roads in the city. Each of the next M lines contains two integers
+u and v (0  u; v < N, u ̸= v) meaning that there is a bidirectional road between two different house
+u and v. All the roads will be distinct.
+
+Output
+For each case, print the test case number, starting from 1, and the answer, number of dumbbell routes
+in the city. The answer will fit into 64-bit signed integer.
+Universidad de Valladolid OJ: 12497 – Chatgaiya Postman Problem 2/2
+
+Sample Input
+25
+6
+0 1
+1 2
+2 0
+2 3
+3 4
+4 2
+6 7
+0 1
+1 2
+2 0
+2 3
+3 4
+4 5
+5 3
+
+Sample Output
+Case 1: 1
+Case 2: 0
+
+--------------------------------------------------------------------------------------------------------------
+
+12498 Ant’s Shopping Mall
+
+In the world of ant there is a popular shopping mall named Ants Shopping Mall. The shopping mall
+is a grid with R rows and C columns. Any cell of the grid can be occupied by a shop or empty. The
+shopping mall is dynamic in a sense that if there is a shop at cell (r; c) (where 1  r  R and 1  c  C,
+here r defines the row and c defines the column of the cell) then in a single move the shop can be moved
+to (r; c 􀀀 1) or (r; c + 1) if the position is empty. But it cannot be moved outside the grid.
+
+The ant queen now wants to visit the shopping mall. The queen can move vertically that is if the
+queen is at cell (r; c) then in the next step she can be at (r + 1; c). She has a special way of visit, she
+always starts from first row that is from any cell (1; c) and continues until the last row is reached that
+is cell (R; c). The owner of the shopping mall wants to impress queen so he wants to find a path of the
+form (1; c), (2; c), …, (R; c) for the queen in advance such that there is no shop in any cell of the path.
+For this the owner of the mall may need to move zero or more shops but he wants to do it in minimum
+number of shop movement. Now the owner hired you to solve the task for him. If it is not possible to
+find a path then you have to report it also.
+
+Input
+First line of the input contains a positive number T, number of test cases. There will be at most 50
+test cases. For each test case the first line contains R and C separated by spaces (2 <= R <= 50 and
+1 <= C <= 50). Each of the next R lines contains C characters, each of them is either ‘0’ or ‘1’. If the
+j-th character in the i-th line contains ‘1’ then cell (i; j) contains a shop otherwise cell (i; j) is empty.
+
+Output
+For each test you have to output minimum number of moves needed if it is possible to generate a path
+for the queen. Otherwise output ‘-1’. See output format for clarification.
+
+Sample Input
+32
+4
+1010
+0101
+3 3
+111
+111
+111
+3 5
+01111
+11110
+11011
+
+Sample Output
+Case 1: 1
+Case 2: -1
+Case 3: 4
+
+--------------------------------------------------------------------------------------------------------------
+
+12499 I am Dumb 3
+
+You know very well that I am dumb, I am too dumb. So here goes the thing I have learnt today. Given
+n axis parallel rectangles in a plane, how will you find the area of their intersection? Hmm.. well, I
+think this is solvable by Segment Tree data structure.. uhh.. finally I can solve a segment tree problem.
+So I jumped to code. Code, debug, code, debug... and like this 5 hours passed. And what? I could not
+solve it again! Again we are returning home empty handed. We were sad, sitting at our desk. Sultan
+Mahmud came laughing (you know him right? He is all time champ, and won the contest today again),
+“hey little genius, what happened today? Why no solve?” We said, “Oh Sultan Mahmud, what can we
+do? We knew segment tree, but could not finish debugging, what can we do?” Sultan Mahmud raising
+his eye brows — “Segment tree? Which one?” When we showed him the problem he busted into laugh,
+“Actually you know too much, think it without segment tree”. Then my team mate says, uhh.. now I
+see... this one is so simple! You take the rightmost left edge and leftmost right edge of all the
+rectangles. Similarly the bottom and top edge. If they form a valid rectangle then that
+will be the answer rectangle. I could not get the solution because I am dumb. But I think you are
+smarter than me. I hope you already figured it out how to solve the problem in O(n) time. If not then
+think it after the contest.
+
+Anyway, on the way back home I was thinking — who wants to be a millionaire? Everyone. But
+who wants to be a dumb? No one! So to shake off the label “dumb” I went to Sultan Mahmud to
+challenge him at any game of his wish. But I found him crying at floor throwing his hands and legs.
+I hurried to him, “Hey hey what happened! You are crying even after winning the contest?”. Sultan
+Mahmud said, “What can happen? Nothing!! just half of my treasure is empty!” and he started to cry
+again. I called his Ujir and gave him order to find the thief, but Sultan Mahmud instead said, “No no,
+you don’t need to find, you go from here” and the Ujir left. I wondered — what happened to Sultan!
+Then he told me, “I myself spent half of my treasure within an hour” “WHAT!!! How could you spend
+half of the treasure!! And only within an hour!!!” Sultan sighed and said, “Princess of Ainorfalic came
+and she wanted to buy me a watch, so I took her to shopping and...” and he started to cry again. I
+said, “Ah.. that’s possible anyway, I thought it is the best chance to win over Sultan Mahmud in this
+mental situation, so I challenged him for any game of Sultan’s choice. Sultan jumped off his sad face
+and started to describe the game,
+
+“There will be n piles of coins in a line. Number of coins in the first pile will be less or equal to
+the number of coins in the second pile, number of coins in the second pile will be less or equal to the
+number of coins in the third pile and so on. And the number of coins in the last pile can be at most L.
+You can add any number of coins at any pile but you have to maintain all the conditions I specified.
+The number of coins in each pile is given initially. He who wont be able to make a move will lose. And
+as an honor you will give the first move.
+
+And guess what, I lost again!!! I am Dumb! Can you help me? If I give you the initial configuration
+of coins, can you tell me who should win if both play optimally? First player or second player? (Please
+note that, at any position of the game, the coin piles have to maintain the less-equal constraint and the
+last pile can be of at most L size)
+
+Input
+In the first line there will be number of test case (at most 100). In the first line of every test case there
+will be n the number of piles (at least 1 and at most 50) and the highest limit L (at most 1,000,000).
+The following line will contain N numbers in non-decreasing order.
+
+Output
+For each test case output the case number, followed by ‘First Player’ or ‘Second Player’ where they
+are appropriate.
+
+Sample Input
+22
+13
+9 10
+2 6
+2 2
+Sample Output
+Case 1: First Player
+Case 2: Second Player
+
+--------------------------------------------------------------------------------------------------------------
